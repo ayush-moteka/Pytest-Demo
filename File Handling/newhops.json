@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "firstname": "Brendon",
+      "lastname": "Mccullum"
+    },
+    {
+      "firstname": "Bristpl",
+      "lastname": "Latest"
+    }
+  ],
+  "non-customers": [
+    {
+      "isPresent": true,
+      "offset": "Yes"
+    }
+  ]
+}
