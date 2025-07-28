@@ -1,8 +1,20 @@
 
 
+weather = "Rainy"
+message = "Happy Weekends"  
 
+match weather:
+    case "Sunny" | "Winter" | "Thunderstroms":
+        print(f"Current weather is of:{weather}")
+    case "Rainy" if message == "Happy Weekend" and not len(message) == 0:
+        print(f"Current weather is my favourite and it is{weather}")
+        message = "Have a rainy day"
+    case _:
+        print("None of the above..")
 
-x = "Ayush is a Cricketer"
+print(message)
+
+x = "Ayush is a Cricketer" 
 
 y = 2034
 
